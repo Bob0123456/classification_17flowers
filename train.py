@@ -54,7 +54,7 @@ def train(n_epochs, batch_size, image_shape):
 
 def main():
     # hyper parameters
-    n_epochs = 10
+    n_epochs = 100
     batch_size = 128
     image_shape = (80, 80, 3)
 
