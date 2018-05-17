@@ -18,7 +18,7 @@ def main():
         data.append((FLOWER_NAME[(index - 0) // 80], image[2:]))
 
     # split data for train or test
-    train, test = train_test_split(data, random_state=2017)
+    train, test = train_test_split(data, test_size=0.5, random_state=0)
 
     # create train dataset
     with open('./data/train.csv', 'w') as f:
